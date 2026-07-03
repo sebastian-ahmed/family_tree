@@ -1,0 +1,32 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run test_family_tree.py",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/test_family_tree.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "justMyCode": true
+    },
+    {
+      "name": "Run ahmed_family_tree.py",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/ahmed_family_tree.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "justMyCode": true
+    },
+    {
+      "name": "Check Graphviz Setup",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/check_graphviz.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "justMyCode": true
+    }
+  ]
+}
